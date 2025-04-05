@@ -65,7 +65,6 @@ function Experience() {
               setIsScrollDisabled={setIsScrollDisabled}
               isScrollDisabled={isScrollDisabled}
               showPortfolio={showPortfolio}
-              setShowPortfolio={setShowPortfolio}
               triggerMoving={triggerMoving}
               setIsPositionChanged={setIsPositionChanged}
               isPositionChanged={isPositionChanged}

@@ -17,7 +17,6 @@ import gsap from "gsap";
 
 type Props = {
   setIsScrollDisabled: Dispatch<boolean>;
-  setShowPortfolio: Dispatch<boolean>;
   isScrollDisabled: boolean;
   showPortfolio: boolean;
   triggerMoving: boolean;
@@ -30,7 +29,6 @@ type Props = {
 function ScrollTexts({
   setIsScrollDisabled,
   showPortfolio,
-  setShowPortfolio,
   triggerMoving,
   isPositionChanged,
   setIsPositionChanged,
@@ -138,7 +136,6 @@ function ScrollTexts({
           <ToolBar
             setIsPositionChanged={setIsPositionChanged}
             setIsScrollDisabled={setIsScrollDisabled}
-            setShowPortfolio={setShowPortfolio}
             setAnimating={setAnimating}
           />
         </motion.div>

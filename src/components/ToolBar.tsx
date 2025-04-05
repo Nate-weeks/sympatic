@@ -13,14 +13,12 @@ import { useAudio } from "react-use-audio";
 type Props = {
   setIsPositionChanged: Dispatch<boolean>;
   setIsScrollDisabled: Dispatch<boolean>;
-  setShowPortfolio: Dispatch<boolean>;
   setAnimating: Dispatch<boolean>;
 };
 
 function ToolBar({
   setIsPositionChanged,
   setIsScrollDisabled,
-  setShowPortfolio,
   setAnimating
 }: Props) {
   const [isVisible, setIsVisible] = useState(true);
