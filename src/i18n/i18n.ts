@@ -9,6 +9,7 @@ i18n.use(initReactI18next).init({
         Articles: "Articles",
         BrainstormGaming: "Brainstorm Gaming",
         About: "Our Services",
+        GlobalCare: "Global Care",
         Outsourcing: "", //"Outsourcing",
         SectionOneText: " Psychological Consultancy Services",
         SectionTwoTitle: "Practical Psychology",

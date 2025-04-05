@@ -100,7 +100,7 @@ setTimeout(() => {
       gsap.to(video,{opacity:0,duration:0.5,ease:Power1.easeIn})
       setAnimating(false)
     }
-    setShowPortfolio(true);
+    window.location.href = 'https://globalcaredevelopment.com/';
   }})
 }, 500);
      
@@ -168,7 +168,7 @@ setIsMuted(value)
             <MusicButton play={play} stop={stop} isMuted={isMuted} changeMuted={changeMuted}/>
 
             <Button onClick={AtricalesChangeHandler} className="py-2">
-              <img src="assets/SympaticLogo1.png" className="invert w-20"/>
+              {t("GlobalCare")}{" "}
             </Button>
 
             <Button onClick={HorizontalChangeHandler}>
