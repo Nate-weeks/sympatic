@@ -47,7 +47,7 @@ function ToolBar({
   const HorizontalChangeHandler = () => {
     const Hill = three.scene.getObjectByName("hill");
     const Flag = three.scene.getObjectByName("flag");
-
+<img src="assets/SympaticLogo1.png" className="invert w-20"/>
 
 
     if (Hill && Flag) {
@@ -166,7 +166,7 @@ setIsMuted(value)
             <MusicButton play={play} stop={stop} isMuted={isMuted} changeMuted={changeMuted}/>
 
             <Button onClick={AtricalesChangeHandler} className="py-2">
-              {t("GlobalCare")}{" "}
+              <img src="assets/globalCareLogo.png" className="w-20"/>
             </Button>
 
             <Button onClick={HorizontalChangeHandler}>
